@@ -1,0 +1,377 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    background-color:#F1FAF0;
+    display: flex;
+    flex-direction: column; 
+    font-family: Arial, sans-serif;
+}
+
+.myprojects{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 90px;
+}
+
+.amazon , .portfolio , .recipe{
+    padding: 20px;
+    align-items: center; 
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    padding: 10px;
+    width: 400px;
+    height: 400px; 
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 35px;
+    background-color: #C0C0C0; /* Base color of the box */
+      border-radius: 10px; /* Optional for rounded corners */
+      box-shadow: 
+        5px 5px 10px rgba(0, 0, 0, 0.2), /* First shadow (lighter) */
+        10px 10px 20px rgba(0, 0, 0, 0.15), /* Second shadow (darker) */
+        15px 15px 30px rgba(0, 0, 0, 0.1); /* Third shadow (deepest) */
+      transform: translateY(-10px); /* Slight lift for a floating effect */
+} 
+
+.amazon img , .portfolio img , .recipe img{
+     width: 350px;
+    height: 140px; 
+    padding: 10px;
+}
+
+nav{
+ box-sizing: border-box;
+ /* display: inline-block; */
+ width: 100vw; 
+ height: 50px; 
+ justify-content: space-between;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ flex-wrap: wrap;
+ margin-bottom: 5px;
+ background-color: black;
+ color: aliceblue;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav > .name{
+    font-weight: 900;
+    font-size: 30px;    
+}
+
+.main , #project , #myskills {
+  margin-top: 25px;
+  margin-top: 150px;
+}
+
+ #myskills{
+  padding-top:30px;
+ }
+
+ .links{
+    margin-left: 10px;    
+    gap: 6px;
+    margin-left: auto; 
+    align-items: center;
+    display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.skill{
+  padding: 10px;
+  flex-wrap:wrap;
+  flex-direction: row; 
+  align-items: center;
+}
+
+#myskills{
+  flex-wrap: wrap;
+}
+
+.projects , .home{
+  padding: 10px;
+}
+
+.box1{
+     display: flex;
+     flex-direction: row; 
+     align-items: center;
+     margin-top: 5px;
+} 
+
+.pic img {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%
+}
+
+.firstbox {
+    align-items: center; /* vertically center content */
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    padding: 40px;
+    width: 470px;
+    height: 470px; 
+    margin:auto;
+    margin-top: 5px;
+    background-color: #C0C0C0; /* Base color of the box */
+      border-radius: 16px; /* Optional for rounded corners */
+      box-shadow: 
+        5px 5px 10px rgba(0, 0, 0, 0.2), /* First shadow (lighter) */
+        10px 10px 20px rgba(0, 0, 0, 0.15), /* Second shadow (darker) */
+        15px 15px 30px rgba(0, 0, 0, 0.1); /* Third shadow (deepest) */
+      transform: translateY(-10px); /* Slight lift for a floating effect */   
+} 
+
+.info{
+padding: 30px;
+}
+
+footer{
+  width: 100vw;
+  height: 74px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  margin:0 ; 
+  padding: 0;
+  background-color: black;
+  color: white;
+  position: static;
+  bottom: 0;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.first, .second, .third{
+     background-color: #C0C0C0; /* Base color of the box */
+      border-radius: 10px; /* Optional for rounded corners */
+      box-shadow: 
+        5px 5px 10px rgba(0, 0, 0, 0.2), /* First shadow (lighter) */
+        10px 10px 20px rgba(0, 0, 0, 0.15), /* Second shadow (darker) */
+        15px 15px 30px rgba(0, 0, 0, 0.1); /* Third shadow (deepest) */
+      transform: translateY(-10px); /* Slight lift for a floating effect */
+}
+
+.main{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    height: 500px;
+    margin-top: 42px;
+}
+
+.html, .css,  .js,  .java {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    padding-top:15px ;
+    border: 3px solid black;
+    background-color: #C0C0C0; /* Base color of the box */
+      border-radius: 10px; /* Optional for rounded corners */
+      box-shadow: 
+        5px 5px 10px rgba(0, 0, 0, 0.2), /* First shadow (lighter) */
+        10px 10px 20px rgba(0, 0, 0, 0.15), /* Second shadow (darker) */
+        15px 15px 30px rgba(0, 0, 0, 0.1); /* Third shadow (deepest) */
+      transform: translateY(-10px); /* Slight lift for a floating effect */
+
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .firstbox {
+    width: 90%;
+    margin: auto;
+    width: 70vw;
+  }
+
+  .pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+  }
+
+  nav {
+    padding: 0 10px;
+    width: 100vw;
+  }
+
+  .links {
+    gap: 5px;
+    font-size: 0.9em;
+  }
+  
+  .main {
+    flex-direction: column;
+  }
+  
+  .skill {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .html, .css, .js, .java {
+    width: 180px;
+    height: 180px;
+  }
+  
+  body {
+    row-gap: 50px;
+  }
+
+  .myprojects {
+    gap: 30px;
+    flex-wrap:wrap;
+    flex-direction: column;
+  }
+
+  .amazon, .portfolio {
+    width: 90%;
+    height: 90%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .skill{
+  padding: 10px;
+  flex-wrap:wrap;
+  flex-direction: column; 
+  align-items: center;
+}
+
+#myskills{
+  flex-wrap: wrap;
+}
+
+ footer{
+     flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+  }
+}
+
+@media ( max-width: 449px){
+ .firstbox {
+    width: 300px;
+    height: 380px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0px;
+  }
+
+  .pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+  }
+
+  nav {
+    padding: 0 ;
+     flex-wrap: wrap;
+    flex-direction: column; 
+    width: 100vw;
+  }
+  
+  .links {
+    gap: 3px;
+    font-size: 0.9em;
+  }
+  
+  .main {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  html{ 
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer{
+     flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    height: 95px;
+  }
+
+  .skill {
+   flex-wrap: wrap;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .html, .css, .js, .java {
+    width: 180px;
+    height: 180px;
+  }
+
+   body {
+    row-gap: 50;
+  }
+    
+    .myprojects {
+    gap: 30px;
+    flex-wrap:wrap;
+    flex-direction: column;
+  }
+
+  .amazon, .portfolio, .recipe {
+    width: 80%;
+    height: 80%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .amazon img , .portfolio img , .recipe img{
+    width: 210px;
+  }
+
+   .skill{
+  padding: 10px;
+  flex-wrap:wrap;
+  flex-direction: column; 
+  align-items: center;
+}
+
+#myskills{
+  flex-wrap: wrap;
+}
+
+}
+
